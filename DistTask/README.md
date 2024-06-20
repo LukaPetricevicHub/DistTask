@@ -1,7 +1,7 @@
 # Distributed Task Scheduling Framework
 
 ## Overview
-This project is a lightweight framework for distributing computational tasks across multiple CPU cores to enhance parallel processing performance. It features task distribution, load balancing, fault tolerance, and supports user-defined tasks. The framework is easy to integrate into existing systems and provides a simple API for submitting tasks, retrieving results, and monitoring worker status. The core components include a Flask web application for managing task and result queues, and worker processes that execute tasks in parallel. Users can define custom tasks, serialize them, and submit them via HTTP requests. The framework is suitable for applications requiring high-performance computing, such as data processing and scientific simulations.
+This initiative introduces an innovative system for allocating computational workloads across several CPU cores to boost parallel processing efficiency. Key attributes include workload distribution, dynamic balancing, resilience against failures, and customization options for user-defined tasks. Designed for seamless integration with existing infrastructures, it offers an intuitive API for task submission, result retrieval, and worker activity monitoring. The primary modules consist of a web interface built with Flask for managing job and output queues, alongside parallel-executing worker units. Users have the flexibility to create and serialize their tasks, submitting them through HTTP endpoints. Ideal for scenarios demanding high-efficiency computing, such as big data analytics and complex simulations.
 
 ## Features
 - Task Distribution
