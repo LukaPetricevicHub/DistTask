@@ -1,7 +1,10 @@
 # Distributed Task Scheduling Framework
 
 ## Overview
-This initiative introduces an innovative system for allocating computational workloads across several CPU cores to boost parallel processing efficiency. Key attributes include workload distribution, dynamic balancing, resilience against failures, and customization options for user-defined tasks. Designed for seamless integration with existing infrastructures, it offers an intuitive API for task submission, result retrieval, and worker activity monitoring. The primary modules consist of a web interface built with Flask for managing job and output queues, alongside parallel-executing worker units. Users have the flexibility to create and serialize their tasks, submitting them through HTTP endpoints. Ideal for scenarios demanding high-efficiency computing, such as big data analytics and complex simulations.
+This initiative introduces an innovative system for allocating computational workloads across several CPU cores to boost parallel processing efficiency. Key attributes include workload distribution, dynamic
+balancing, resilience against failures, and customization options for user-defined tasks. Designed for seamless integration with existing infrastructures, it offers an intuitive API for task submission, result
+retrieval, and worker activity monitoring. The primary modules consist of a web interface built with Flask for managing job and output queues, alongside parallel-executing worker units. Users have the flexibility to
+create and serialize their tasks, submitting them through HTTP endpoints. Ideal for scenarios demanding high-efficiency computing, such as big data analytics and complex simulations.
 
 ## Features
 - Task Distribution
