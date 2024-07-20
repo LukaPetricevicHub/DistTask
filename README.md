@@ -24,8 +24,8 @@ To get started with the Distributed Task Scheduling Framework, follow these step
 ### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/distributed-task-scheduler.git
-cd distributed-task-scheduler
+git clone https://github.com/LukaPetricevicHub/DistTask.git
+cd DistTask
 ```
 Install the required packages:
 ```bash
